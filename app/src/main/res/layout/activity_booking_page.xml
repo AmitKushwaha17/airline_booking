@@ -35,6 +35,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.133" />
 
+    <TextView
+        android:id="@+id/datetimetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day/Date :"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223" />
+
     <EditText
         android:id="@+id/from"
         android:layout_width="229dp"
@@ -64,4 +78,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.119" />
+
+    <EditText
+        android:id="@+id/filter"
+        android:layout_width="229dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:hint="Filter"
+        android:inputType="text"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
 </androidx.constraintlayout.widget.ConstraintLayout>
