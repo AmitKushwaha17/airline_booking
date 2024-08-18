@@ -39,7 +39,7 @@
         android:id="@+id/datetimetv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Day/Date :"
+        android:text="Filter :"
         android:textColor="@color/black"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -89,8 +89,21 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.217" />
+        app:layout_constraintVertical_bias="0.215" />
+
+    <Button
+        android:id="@+id/Search"
+        android:layout_width="323dp"
+        android:layout_height="54dp"
+        android:text="Search"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
