@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MinorProject"
         tools:targetApi="31">
         <activity
+            android:name=".addflight"
+            android:exported="false" />
+        <activity
+            android:name=".flight_manage"
+            android:exported="false" />
+        <activity
             android:name=".User_manage1"
             android:exported="false" />
         <activity
